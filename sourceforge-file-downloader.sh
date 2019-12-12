@@ -2,7 +2,7 @@
 
 display_usage() {
   echo "Downloads all of a SourceForge project's files."
-  echo "\nUsage: ./sourceforge-file-download.sh [project name] \n"
+  echo "\nUsage: ./sourceforge-file-download.sh [https://sourceforge.net/projects/peazip/files/Resources] \n"
 }
 
 if [ $# -eq 0 ]
